@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mushrooom.firsemenu.MainActivity">
+    <item
+        android:id="@+id/menu1"
+        android:orderInCategory="100"
+        android:title="@string/register"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu2"
+        android:orderInCategory="100"
+        android:title="@string/unregister"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu3"
+        android:orderInCategory="100"
+        android:title="@string/discover"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu4"
+        android:orderInCategory="100"
+        android:title="@string/connect"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu5"
+        android:orderInCategory="100"
+        android:title="@string/exit"
+        app:showAsAction="never" />
+</menu>
